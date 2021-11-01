@@ -1,12 +1,10 @@
 class TreeNode:
-
     def __init__(self,val):
         self.val = val
         self.left = None
         self.right = None
 
 def inorder(root):
-
     if (not root):
         return
 
@@ -15,7 +13,6 @@ def inorder(root):
     inorder(root.right)
 
 root = TreeNode(10)
-
 root.left = TreeNode(5)
 root.right = TreeNode(15)
 
