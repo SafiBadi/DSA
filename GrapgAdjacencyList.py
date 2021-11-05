@@ -34,7 +34,7 @@ myGraph.addEdge(1,3)
 myGraph.addEdge(2,3)
 myGraph.addEdge(4,3)
 myGraph.addEdge(1,4)
-myGraph.addEdge(2,4)
+myGraph.addEdge(2,4) 
 
 myGraph.printGraph()
 
