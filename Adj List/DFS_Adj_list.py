@@ -14,7 +14,7 @@ class Graph:
             print(i)
 
     def dfsOfGraph(self):
-        visited = [False for i in range(self.v) ]
+        visited = [ False for i in range(self.v) ]
         stk = list()
         dfsans = []
 
@@ -35,8 +35,6 @@ class Graph:
                 self.mydfs(visited, stk, dfsans)
 
 
-
-
 myGraph = Graph(5)
 
 myGraph.addEdge(0,3)
@@ -46,8 +44,6 @@ myGraph.addEdge(4,3)
 myGraph.addEdge(1,4)
 myGraph.addEdge(2,4) 
 
-myGraph.printGraph()
+#myGraph.printGraph()
 
 print(myGraph.dfsOfGraph())
-
-
